@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>leaning html</title>
+<!--<link rel="stylesheet" href="style.css">-->
+<meta charset="utf-8">
+<meta name="viewpoint" content="width=device-width,initial-scale=1">
+<meta name="keywords" content="HTML,practice">
+<meta name="author" content="Tanmay Mahajan">
+<meta name="description" content="practising html trying to be good web developer">
+<!--<base target="_blank">-->
+<script>
+function myfunction() {
+   document.getElementById("demo").innerHTML="Hello Javascript";
+}
+</script>
+
+<script>
+function myFunction() {
+  document.getElementById("demom").style.fontSize = "25px"; 
+  document.getElementById("demom").style.color = "red";
+  document.getElementById("demom").style.backgroundColor = "yellow";        
+}
+</script>
+
+<!--<style>
+img{
+   width:100%;
+}</style>-->
+<!--<style>
+a:link{
+  color: pink;
+  background-color:transparent ;
+  text-decoration: none; 
+}
+a:visited {
+  color: purple;
+  background-color:transparent ;
+  text-decoration: transparent;
+}
+a:hover {
+  color: white;
+  background-color:transparent ;
+  text-decoration: none;
+}
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>-->
+<style>
+a:link, a:visited{
+  background-color:tomato;
+  color:white;
+  padding: 15px 25px;
+  text-align:centre;
+  text-decoration: underline;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color:red;
+}
+body {
+   background-image: url('ios-11-3840x2160-4k-5k-beach-ocean-13655.jpg');backgrounf-size:cover;
+   <!--background-repeat: no-repeat;-->
+}
+
+table, th, td {
+border:2px solid #dddddd;
+padding:8px;
+border-collapse: collapse;
+}
+#t01 tr:nth-child(odd){
+background-color:#dddddd;
+}
+#t02 {
+width:100%;
+background-color:rgb(255,255,255,0.6);
+}
+#t03 th
+{ background-color:black;color:white;}
+
+#t03 {
+width:100%;
+background-color:rgb(255,255,255,0.6);
+}
+#ul01 {
+    list-style-type:none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333333;
+}
+#ul01 li{
+  float:left;
+}
+
+#ul01 li a{
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 16px;
+     text-decoration: none;  
+     background-color: #333333;  
+}
+#ul01 li a:hover {
+  background-color: #111111;
+}
+.city{
+     background-color:rgb(20,20,255,0.4);
+     color:white;
+     padding:15px;
+     border:3px solid red;
+     margin:15px;text-align: center;
+}
+.note{color:black;
+      font-weight:bold;
+     font-size: 120%;
+}
+.mainmain {
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+header {
+   background-color: #666;
+   color: white;
+   font-size: 35px;
+   padding: 30px;
+   text-align: center;
+}
+nav {
+   float: left;
+   background-color: #ccc;
+   padding: 20px;
+   width: 20%;
+   height: 600px;
+}
+
+.arti {
+    float:left;
+    padding: 20px;
+    width: 80%;
+    height: 600px;
+    background-color: #f1f1f1;
+}
+
+.sect::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+   text-align: center;
+   background-color: #666;
+   padding: 10px;
+   color: white;
+}
+@media (max-width:600px){
+    nav,article {
+    width: 100%;
+    height: auto;
+}
+}
+
+
+#change01 li a{
+     display: block;
+     color: white;
+     text-align: left;
+     padding: 16px;
+     text-decoration: none;  
+     background-color: #ffffff00;  
+}
+#change01 li a:hover {
+  background-color: #111111;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+.left {
+   background-color:blue;
+   padding: 20px;
+   color: white;
+   float: left;
+   width:20%;
+}
+
+
+.main {
+   background-color:red;
+   padding: 20px;
+   color: white;
+   float: left;
+   width:60%;
+}
+
+
+.right {
+   background-color:green;
+   padding: 20px;
+   color: white;
+   float: left;
+   width:20%;
+}
+
+
+@media screen and (max-width: 800px) 
+{
+   .left, .right, .main {width:100%;}
+}
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+</style>
+</head>
+<!--Lets beginnnn-->
+<body>
+<h1 style="color:slateblue;text-align:center;background-color:MediumSeaGreen"><strong>This is heading 1</strong></h1>
+<h2 style="text-align:right;">This is heading 2</h2>
+<h3><em>This is heading 3</em></h3>
+<h4 style="font-size:300%;font-family:cursive;color:rgb(255,232,43,0.6);">This is heading 4</h4>
+<h5><i>This is heading 5</i></h5>
+<h6>This is heading 6</h6>
+<h7>This is heading 7</h7>
+<p><a href="#C4">jump to chapter 4</a></p>
+<p><a href="#C10">jump to chapter 10</a></p>
+<h2>Chapter 1</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 2</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 3</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2 id="C4">Chapter 4</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 5</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 6</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 7</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 8</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 9</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2 id="C10">Chapter 10</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 11</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 12</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 13</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 14</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 15</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 16</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 17</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 18</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 19</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 20</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 21</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 22</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 23</h2>
+<p>This chapter explains ba bla bla</p>
+<br>
+<p style="color:marron;" title="This is title"><em>This is a paragraph</em></p>
+<hr>
+<p style="background-color:pink;"><small>This is another paragraph<br>with <mark>line break</mark><br></small></p>
+<hr>
+<p>My favourite car is <del>alto</del> <ins>Lamborghini</ins> </p>
+<p>CO<sub>2</sub>+O<sub>2</sub>=H<sub>2</sub>O<p/>
+<p>2<sup>3</sup>=8</p>
+
+<p>Browsers usually indent blockquote elements.</p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.
+</blockquote>
+<p>He says : <q>ohh mama miya mama miyaa mama miyyaaaaa....</q></p>
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<address style="border:2px solid DodgerBlue;padding:20px;margin:10px">
+Written by John Doe.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+<br>
+<a href="mailto:tanmaytm29@gmail.com">mail here</a>
+</address>
+<a href="https://www.youtube.com/" target="_blank" ><strong>click this to open youtube</strong></a>
+<br><br>
+<a href="https://www.myntra.com/" target="_blank">click this to open website</a>
+<br><br>
+<a href="heading.html" target="_blank">click this to open another page</a>
+<p>The HTML cite element defines the title of a work.</p>
+<p>Browsers usually display cite elements in italic.</p>
+
+<a href="http://www.edvard-munch.org/scream/" target="_blank" title="Click on this pic for more info"><img src="img_the_scream.jpg" style="width:220px;height:220x;" alt="The Scream"></a>
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+<p>this line will be printed from right to left</p>
+<bdo dir="rtl">this line will be printed from right to left</bdo>
+<br>
+<img src="https://data.pixiz.com/output/user/frame/preview/400x400/6/9/1/0/3460196_cbbe7.jpg" alt="bsdk net toh shuru kar le" width="400" height="400">
+<img src="3d_sphere-1366x768[1].jpg" alt="image cannot be loaded check your network" style="width:500px;height:500;">
+<img src="https://media.wired.com/photos/59326d5344db296121d6aee9/master/pass/8552.gif" alt="girl in the image" style="width:300 height:300;">
+<img src="https://www.w3schools.com/html/workplace.jpg" title="Click on any item to purchase"alt="computer mobile coffee" style="width:200 height:200" usemap=#newmap>
+<map name="newmap">
+<area shape="rect" coords="34,44,270,350" target="_blank"alt="Computer" title="Click on computer to purchase" href="https://www.amazon.in/Apple-MacBook-Chip-13-inch-256GB/dp/B08N5W4NNB/ref=sr_">
+<area shape="rect" coords="290,172,333,250" target="_blank" alt="Phone" title="Click on phone to purchase" href="https://www.amazon.in/New-Apple-iPhone-11-64GB/dp/B08L8CRHQZ/ref=sr_1_3?dchild=1&keywords=iphone&qid=1624517203&sr=8-3">
+<area shape="circle" coords="337,300,44" target="_blank" alt="Coffee" title="Click coffeecup to purchase" href="https://www.amazon.in/Larah-Borosil-Mimosa-12-Pieces-HT12CS14MIM1/dp/B07FTLWTFM/ref=sr_1_12?crid=DZSIU7RIYPHJ&dchild=1&keywords=cups&qid=1624517152&s=kitchen&sprefix=cup%2Caps%2C313&sr=1-12">
+<h2>Background Image</h2>
+
+<p>A background image for a div element:</p>
+
+<div style="background-image: url('4.jpg');backgrounf-size:cover;background-attachment:fixed;">
+You can specify background images<br>
+for any visible HTML element.<br>
+In this example, the background image<br>
+is specified for a div element.<br>
+By default, the background-image<br>
+will repeat itself in the direction(s)<br>
+where it is smaller than the element<br>
+where it is specified. (Try resizing the<br>
+browser window to see how the<br>
+background image behaves.
+</div>
+<h2>Floating Images</h2>
+<p><strong>Float the image to the right:</strong></p>
+
+<p>
+<img src="https://community.unifi.com.my/t5/image/serverpage/image-id/2303i865922AF6943C841/image-size/large/is-moderation-mode/true?v=v2&px=999" alt="Smiley face" style="float:right;width:60px;height:60px;">
+A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
+</p>
+
+<p><strong>Float the image to the left:</strong></p>
+<p>
+<img src="https://community.unifi.com.my/t5/image/serverpage/image-id/2303i865922AF6943C841/image-size/large/is-moderation-mode/true?v=v2&px=999" alt="Smiley face" style="float:left;width:60px;height:60px;">
+A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.  
+</p>
+<br>
+<hr>
+<pre style="background-color:powderblue; color:red;padding:50px;margin:30 ;">
+My <b>Bonnie</b> lies over the ocean.
+
+My <b>Bonnie</b> lies over the sea.
+
+My <b>Bonnie</b> lies over the ocean.
+
+Oh, bring back my <b>Bonnie</b> to me.
+</pre>
+<!--You are doing great-->
+<hr>
+<table id="t01" style="width:100%;background-color:rgb(255,255,255,0.6);">
+<tr>
+<th>Firstname</th>
+<th>lastname</th>
+<th>age</th>
+</tr>
+<tr>
+<td>Ramesh</td>
+<td>panwala</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Suresh</td>
+<td>poonawala</td>
+<td>21</td>
+</tr>
+<tr>
+<td>jignesh</td>
+<td>daaruwala</td>
+<td>22</td>
+</tr>
+<tr>
+<td>naresh</td>
+<td>biskutwala</td>
+<td>23</td>
+</tr>
+</table>
+<br>
+<table id="t02">
+<tr>
+    <th>Name:</th>
+    <td>Bill Gates</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Telephone:</th>
+    <td>55577854</td>
+  </tr>
+  <tr>
+    <td>55577855</td>
+  </tr>
+</table>
+<br>
+<table id="t03">
+<br>
+<caption style="font-size:200%"><b>Details<b></caption>
+  <tr>
+    <th>Name</th>
+    <th colspan="2">Telephone</th>
+  </tr>
+  <tr>
+    <td>Bill Gates</td>
+    <td>55577854</td>
+    <td>55577855</td>
+  </tr>
+</table>
+<br><br>
+<ul id="ul01">
+<li><a href="https://www.ferrari.com/en-IN"target="_blank" title="visit to ferrari website">ferrari</a></li>
+<li><a href="https://www.audi.in/in/web/en.html"target="_blank" title="visit to audi website">audi</a></li>
+<li><a href="https://www.ford.com/cars/mustang/" target="_blank" title="visit to ford-mustang website">mustang</a></li>
+<li><a href="https://www.rolls-roycemotorcars.com/en_GB/home.html"target="_blank" title="visit to Rolls-Royce website">Rolls-Royce</a></li>
+<li><a href="https://www.porsche.com/middle-east/_india_/" target="_blank" title="visit to porche website">porche</a></li>
+<li><a href="https://www.bmw.com/en/index.html" target="_blank"title="visit to BMW website">BMW</a></li>
+</ul>
+<ul style="list-style-type:disc">
+<li>ferrari</li>
+<li>audi</li>
+<li>mustang</li>
+<li>Rolls-Royce </li>
+<li>porche</li>
+<li>BMW</li>
+</ul>
+<ul style="list-style-type:square">
+<li>ferrari</li>
+<li>audi</li>
+<li>mustang</li>
+<li>Rolls-Royce </li>
+<li>porche</li>
+<li>BMW</li>
+</ul>
+<ul style="list-style-type:circle">
+<li>ferrari</li>
+<li>audi</li>
+<li>mustang</li>
+<li>Rolls-Royce </li>
+<li>porche</li>
+<li>BMW</li>
+</ul>
+<ul style="list-style-type:none">
+<li>ferrari</li>
+<li>audi</li>
+<li>mustang</li>
+<li>Rolls-Royce </li>
+<li>porche</li>
+<li>BMW</li>
+</ul>
+<ul>
+<li>ferrari
+<ul>
+<li>ferrari roma</li>
+<li>ferrari 812</li>
+<li>ferrari portofino</li>
+</ul>
+</li>
+<li>audi
+<ul>
+<li>audi a4</li>
+<li>audi a6</li>
+<li>audi Q2</li>
+</ul>
+</li>
+<li>mustang</li>
+<li>Rolls-Royce </li>
+<li>porche</li>
+<li>BMW</li>
+</ul>
+<ol type="1">
+<li>apple</li>
+<li>mango</li>
+<li>banana</li>
+<li>watermelon</li>
+<li>pineapple</li>
+</ol>
+<ol type="A">
+<li>apple</li>
+<li>mango</li>
+<li>banana</li>
+<li>watermelon</li>
+<li>pineapple</li>
+</ol>
+<ol type="a">
+<li>apple</li>
+<li>mango</li>
+<li>banana</li>
+<li>watermelon</li>
+<li>pineapple</li>
+</ol>
+<ol type="I">
+<li>apple</li>
+<li>mango</li>
+<li>banana</li>
+<li>watermelon</li>
+<li>pineapple</li>
+</ol>
+<ol type="i">
+<li>apple</li>
+<li>mango</li>
+<li>banana</li>
+<li>watermelon</li>
+<li>pineapple</li>
+</ol>
+<ol start="54">
+<li>apple</li>
+<li>mango</li>
+<li>banana</li>
+<li>watermelon</li>
+<li>pineapple</li>
+</ol>
+<div style="background-color:rgb(255,0,0,0.7);padding: 15px; ">
+<ol>
+<li>ferrari
+<ol>
+<li>ferrari roma</li>
+<li>ferrari 812</li>
+<li>ferrari portofino</li>
+</ol>
+</li>
+<li>audi
+<ol>
+<li>audi a4</li>
+<li>audi a6</li>
+<li>audi Q2</li>
+</ol>
+</li>
+<li>mustang</li>
+<li>Rolls-Royce </li>
+<li>porche</li>
+<li>BMW</li>
+</ol>
+</div>
+<dl>
+<dt><b>coffee</b></dt>
+<dd>-black hot drink</dd>
+<dt><b>milk</b></dt>
+<dd>white cold drink</dd>
+</dl>
+<div class="city">
+    <h2>London</h2>
+    <p><span class="note">London</span> is capital of England </p>
+</div>
+<div class="city">
+     <h2>paris</h2>
+     <p><span class="note">Paris</span> is capital of france</p>
+</div>
+<div class="city">
+    <h2>Newyork </h2>
+    <p><span class="note">Newyork</span> is capital of usa</p>
+</div>
+<p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
+
+<h2>Multiple Classes</h2>
+<p>Here, all three h2 elements belongs to the "city" class. In addition, London also belongs to the "main" class, which center-aligns the text.</p>
+
+<h2 class="city mainmain">London</h2>
+<h2 class="city">Paris</h2>
+<h2 class="city">Tokyo</h2>
+<iframe src="heading.html" title="heading page" style="background-color:white;width:500px ;height:300px;"></iframe>
+<br>
+<button type="button" onclick="myfunction()">click me</button>
+<p id="demo">this is a demo</p>
+<h1>My First JavaScript</h1>
+
+<p id="demom">JavaScript can change the style of an HTML element.</p>
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+<header>
+<h2>Cities</h2>
+</header>
+<section class="sect">
+<nav>
+<ul id="change01">
+<li><a href="https://en.wikipedia.org/wiki/London"  target="_blank">London</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Paris"  target="_blank">Paris </a></li>
+<li><a href="https://en.wikipedia.org/wiki/New_York_City"  target="_blank">NewYork</a></li>
+</ul>
+</nav>
+
+<article class="arti">
+<h1>London</h1>
+<p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+<p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+
+<h1>Paris</h1>
+<p>Paris (French pronunciation: ​[paʁi] (About this soundlisten)) is the capital and most populous city of France, with an estimated population of 2,175,601 residents as of 2018, in an area of more than 105 square kilometres (41 square miles).[4] Since the 17th century, Paris has been one of Europe's major centres of finance, diplomacy, commerce, fashion, gastronomy, science and arts. aris (French pronunciation: ​[paʁi] (About this soundlisten)) is the capital and most populous city of France, with an estimated population of 2,175,601 residents as of 2018, in an area of more than 105 square kilometres (41 square miles).[4] Since the 17th century, Paris has been one of Europe's major centres of finance, diplomacy, commerce, fashion, gastronomy, science and arts. </p>
+<p>The City of Paris is the centre and seat of government of the region and province of Île-de-France, or Paris Region, which has an estimated population of 12,174,880, or about 18 percent of the population of France as of 2017.[5] The Paris Region had a GDP of €709 billion ($808 billion) in 2017.</p>
+
+<h1>NewYork</h1>
+<p>New York City (NYC), often simply called New York, is the most populous city in the United States. With an estimated 2019 population of 8,336,817 distributed over about 302.6 square miles (784 km2), New York City is also the most densely populated major city in the United States.[</p>
+<p> Located at the southern tip of the State of New York, the city is the center of the New York metropolitan area, the largest metropolitan area in the world by urban area.[12] With almost 20 million people in its metropolitan statistical area and approximately 23 million in its combined statistical area, it is one of the world's most populous megacities. New York City has been described as the cultural, financial, and media capital of the world, significantly influencing commerce,[13] entertainment, research, technology, education, politics, tourism, art, fashion, and sports, and is the most photographed city in the world.[14] Home to the headquarters of the United Nations,[15] New York is an important center for international diplomacy,[16][17] and has sometimes been called the capital of the world.[18][19]</p>
+</article>
+</section>
+
+<footer>
+<p>footer</p>
+</footer>
+
+<picture>
+<source srcset="https://i.pinimg.com/236x/34/d0/51/34d051688ea8d1019506802362bfd5a9.jpg" media="(max-width: 600px)">
+<source srcset="https://images.pexels.com/photos/207962/pexels-photo-207962.jpeg?cs=srgb&dl=pexels-pixabay-207962.jpg&fm=jpg" media="(max-width: 900px)">
+<source srcset="https://thumbs.dreamstime.com/b/racial-love-white-caucasion-black-african-american-hands-shaped-as-interracial-heart-representing-world-unity-ethnic-162292478.jpg">
+<img src="https://thumbs.dreamstime.com/b/racial-love-white-caucasion-black-african-american-hands-shaped-as-interracial-heart-representing-world-unity-ethnic-162292478.jpg" alt="heart" style="width:auto;">
+</picture>
+<h1 style="font-size:10vw">HELLO WORLD</h1>
+
+<div class="left">
+  <p>LeftMenu</p>
+</div>
+
+<div class="main">
+  <p>Main Content</p>
+</div>
+
+<div class="right">
+  <p>Right Content</p>
+</div>
+
+<article class="all-browsers">
+  <h1>Most Popular Browsers</h1>
+  <article class="browser">
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+  <article class="browser">
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+  <article class="browser">
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</article>
+
+<p style="font-size:30px;">&#128516</p>
+
+<form action="/action_page.php" style=" color:white ;background-color:rgb(150,10,10,0.4)">
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname" value="Tanmay"><br>
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname" value="Mahajan"><br>
+<input type="submit" value="Submit">
+</form> 
+<br><br><br>
+<form>
+<p>select your fav location </p>
+<input type="radio" id="maldives" name="fav vacation" value="maldives">
+<label for="maldives">Maldives</label><br>
+<input type="radio" id="Phuket" name="fav location" value="phuket">
+<label for="Phuket">Phuket</label><br>
+<input type="radio" id="Krabi" name="fav location" value="Krabi">
+<label for="Krabi">Krabi</label><br>
+</form>
+<br><br><br>
+<form>
+<p>which language do you know</p>
+<input type="checkbox" id="C" name="language" value="C">
+<label for="C">C</label><br>
+<input type="checkbox" id="python" name="language" value="python">
+<label for="python">python</label><br>
+<input type="checkbox" id="C#" name="language" value="C#">
+<label for="C#">C#</label><br>
+<input type="checkbox" id="C++" name="language" value="C++">
+<label for="C++">C++</label><br>
+<input type="checkbox" id="java" name="language" value="java">
+<label for="java">java</label><br>
+</form>
+<br><br><br>
+<form>
+<label for="favcar">choose your fav car:</label>
+<select id="favcar" name="cars">
+<option value="Lamborghini">Lamborghini</option>
+<option value="audi">audi</option>
+<option value="ferrari" selected>ferrari</option>
+<option value="bmw">bmw</option>
+<option value="Mercedes-Benz">Mercedes-Benz</option>
+<option value="porsche">porsche</option>
+</select>
+<input type="submit">
+</form>
+<br><br><br>
+<form>
+<label for="favcar">choose your fav car:</label>
+<select id="favcar" name="cars" size="3" multiple>
+<option value="Lamborghini">Lamborghini</option>
+<option value="audi">audi</option>
+<option value="ferrari" selected>ferrari</option>
+<option value="bmw">bmw</option>
+<option value="Mercedes-Benz">Mercedes-Benz</option>
+<option value="porsche">porsche</option>
+</select>
+<input type="submit">
+</form>
+<br><br><br>
+
+<p>give your feedback about this page</p>
+<form>
+<textarea name="feedback" rows="15" cols="90">
+The Page is nice for begginers,keep trying.
+</textarea>
+<br><br>
+<input type="submit">
+</form>
+
+<br><br><br>
+<button type="button" onclick="alert('You just clicked a button')">Click here to see dialog box</button>
+<br><br><br>
+
+<form>
+<fieldset>
+<legend>Student's details </legend>
+<fieldset>
+<legend>Personal details </legend>
+<label for="fname">First name:</label>
+<input type="text" id="fname" name="fname" value="Tanmay" autofocus><br><br>
+<label for="lname">Last name:</label>
+<input type="text" id="lname" name="lname" value="Mahajan"><br><br>
+<label for="birthday">Enter Your Birthday :</label>
+<input type="date" id="birthday" name="birthday"><br><br>
+</fieldset>
+<br><br><br>
+<fieldset>
+<legend>Academic details </legend>
+<label for="cname">college name:</label><br>
+<input type="text" id="cname" name="cname" value="Vesit" readonly><br>
+<label for="cgpa">cgpa:</label><br>
+<input type="text" id="cgpa" name="cgpa" value="7.5"><br>
+<label for="email">Enter E-mail</label><br>
+<input type="email" id="email" name="email" value="Enter your college e-mail"><br>
+<label for="marksheet">Upload Your Marksheet</label><br>
+<input type="file" id="marksheet" name="marksheet">
+<br><br>
+<label for="monthyear">current month:</label><br>
+<input type="month" id="monthyear" name="monthyear"><br>
+<label for="kt">No of backlog:</label><br>
+<input type="number" id="kt" name="kt" min="0" max="4">
+</fieldset>
+<br><br>
+<label for="today-date&time">today-date&time</label><br>
+<input type="datetime-local"id="today-date&time" name="datetime">
+<br><br>
+<input type="submit" value="Submit">
+<br><br>
+</fieldset>
+<br><br><br>
+</form>
+
+
+<p>choose your dream car:</p>
+<form>
+<input list="favcars" name="cars">
+<datalist id="favcars">
+<option value="Lamborghini">
+<option value="audi">
+<option value="ferrari" selected>
+<option value="bmw">
+<option value="Mercedes-Benz">
+<option value="porsche">
+</datalist>
+<input type="submit">
+</form>
+<br><br><br>
+
+<form
+oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+0
+<input type="range" id="a" name="a" value="25">
+100 +
+<input type="number" id="b" name="b" value="50">
+=
+<output name="x" for="a b"></output>
+<br><br>
+<input type="submit">
+</form>
+<br><br>
+<form>
+<label for="username">Username</label><br>
+<input type="text" id="username" name="username" value="Enter your username" autofocus><br>
+<label for="password">Password:</label><br>
+<input type="password" id="password"><br><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+<br><br>
+</form>
+
+
+<h1>A Hidden Field (look in source code)</h1>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <input type="hidden" id="custId" name="custId" value="3487">
+  <input type="submit" value="Submit">
+</form>
+<br><br><br>
+
+<form>
+<label for="volume">Volume:</label><br>
+<input type="range" id="volume" name="volume" min="0" max="100"><br>
+</form>
+<br><br><br>
+<form>
+  <label for="brightness">brightness</label>
+  <input type="number" id="brightness" name="brightness" min="0" max="100" step="10" value="30">
+  <input type="submit" value="Submit">
+</form>
+<br><br><br>
+<form>
+  <label for="gsearch">Search Google:</label>
+  <input type="search" id="gsearch" name="gsearch">
+  <input type="submit" value="Submit">
+</form>
+<br><br><br>
+<form>
+<label for="phone">Enter Your Telephone number:</label>
+<input type="tel" id="phone" name="phone" placeholder="+91-12345-67890" pattern="[+]{1}-[0-9]{2}-[0-9]{5}-[0-9]{5}" required><br><br>
+<small>Format:+9112345-67890</small><br><br>
+<input type="submit" value="Submit">
+</form>
+
+<form>
+  <label for="appt">Select a time:</label>
+  <input type="time" id="appt" name="appt">
+  <input type="submit" value="Submit">
+</form>
+<br><br><br>
+<form action="/action_page.php">
+  <label for="favcolor">Select your favorite color:</label>
+  <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+  <input type="submit" value="Submit">
+</form>
+
+
+
+<h1>The input form attribute</h1>
+
+<p>The form attribute specifies the form an input element belongs to.</p>
+
+<form action="/action_page.php" id="form1">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>The "Last name" field below is outside the form element, but still part of the form.</p>
+
+<label for="lname">Last name:</label>
+<input type="text" id="lname" name="lname" form="form1">
+
+
+<form action="/action_page_binary.asp" method="post">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <input type="submit" value="Submit">
+  <input type="submit" formenctype="multipart/form-data" value="Submit as Multipart/form-data">
+</form>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  <input type="submit" formtarget="_blank" value="Submit to a new window/tab">
+</form>
+<form action="/action_page.php">
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <input type="submit" value="Submit">
+  <input type="submit" formnovalidate="formnovalidate"
+  value="Submit without validation">
+</form>
+<br>
+<svg width="100" height="100">
+<circle cx="50" cy="40" r="40"stroke="green" stroke-width="4" fill="red"/>
+</svg>
+
+
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40"
+  stroke="green" stroke-width="4" fill="yellow" />
+Sorry, your browser does not support inline SVG.
+</svg>
+
+<svg width="400" height="100">
+<rect width="400" height="100" style="fill:red; stroke:green ;stroke-width:10;"/>
+</svg>
+<br>
+<video  width="320" height="240" controls>
+   <source src="movie.mp4" type="video/mp4">
+your browser does not support video
+</video>
+
+<video  width="320" height="240" autoplay muted>
+   <source src="movie.mp4" type="video/mp4">
+your browser does not support video
+</video>
+
+<br>
+<audio controls>
+<source src="Starving_(feat._Zedd).mp3" type="audio/mp3">
+</audio>
+
+<br>
+<iframe width="600" height="300"
+src="https://www.youtube.com/embed/yJg-Y5byMMw?controls=1">
+</iframe>
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1&control=1">
+</iframe>
+
+</body>
+</html>
